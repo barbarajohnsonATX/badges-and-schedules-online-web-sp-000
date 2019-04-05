@@ -22,11 +22,9 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-    names.each_with_index do |val, index|
-      name = badge_maker(names[i])
-     room = assign_rooms(names[i])
-    puts #{name} #{room}
-    
-    i += 1 
-  end 
+    names.each_with_index do |name, index|
+      name = badge_maker(name)
+     room = assign_rooms(names)
+    puts #{name} #{room[index]}
+    end 
 end 
