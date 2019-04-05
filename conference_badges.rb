@@ -23,7 +23,7 @@ end
 
 def printer(names)
   i = 0 
-   names.length.times do 
+   names.each_with_index do 
      name = badge_maker(names[i])
      room = assign_rooms(names[i])
     puts #{name} #{room}
