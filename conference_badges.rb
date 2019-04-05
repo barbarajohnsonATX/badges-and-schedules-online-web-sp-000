@@ -28,6 +28,6 @@ def printer(names)
     badges.each_with_index do |name, index|
       
     puts "#{name[index]}"
-    puts "#{room[index]}""
+    puts "#{room[index]}"
     end 
 end 
