@@ -26,8 +26,8 @@ def printer(names)
    names.length.times do 
      name = badge_maker(names[i])
      room = assign_rooms(names[i])
-    puts #{name}
-    puts #{room}
+    puts #{name} #{room}
+    
     i += 1 
   end 
 end 
