@@ -22,16 +22,9 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-  badges = badge_maker(names)
-  rooms = assign_rooms(names)
-  
-  i = 0
-  num_names = names.size 
-  
-  badge_maker.each do |attendee|  
-    room = (assign_rooms(names))[i]
-    puts "#{attendee}"
-    puts "#{room}"
-    i += 1 
-  end 
+ 
+  i = 0 
+  names.size do 
+    puts badge_maker(names[i])
+    puts assign_rooms(names[i])
 end 
