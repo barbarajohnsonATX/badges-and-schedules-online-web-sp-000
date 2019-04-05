@@ -22,12 +22,13 @@ def assign_rooms(names)
 end 
 
 def printer(names)
+  badges = batch_badge_creator(names)
+  rooms = assign_rooms(names)
+  
   i = 0
-  names.size do 
-    badge = batch_badge_creator(names)[i]
-    room = assign_rooms(names)[i]
-    puts #{badge}
-    puts #{room}
+  names.size do  
+    puts #{badge[i]}
+    puts #{rooms[i]}
     i += 1 
   end 
 end 
