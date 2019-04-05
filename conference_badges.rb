@@ -22,7 +22,7 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-  badges = batch_badge_creator(names)
+  badges = badge_maker(names)
   rooms = assign_rooms(names)
   
   i = 0
