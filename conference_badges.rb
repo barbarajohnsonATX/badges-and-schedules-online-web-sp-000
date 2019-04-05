@@ -24,8 +24,8 @@ end
 def printer(names)
   i = 0
   names.size do 
-    badge = badge_maker[i]
-    room = assign_rooms[i]
+    badge = batch_badge_creator(names)[i]
+    room = assign_rooms(names)[i]
     puts #{badge}
     puts #{room}
     i += 1 
