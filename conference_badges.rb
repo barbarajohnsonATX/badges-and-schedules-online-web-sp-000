@@ -27,6 +27,7 @@ def printer(names)
   
   i = 0
   num_names = names.size 
+  
   num_names.times do  
     
     puts #{badge[i]}
