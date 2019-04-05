@@ -23,7 +23,8 @@ end
 
 def printer(names)
   i = 0 
-  names.size.times do 
+  size = names.size 
+  size.times do 
     puts badge_maker(names[i])
     puts assign_rooms(names[i])
     i += 1 
