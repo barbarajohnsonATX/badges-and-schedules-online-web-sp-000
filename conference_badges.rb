@@ -23,8 +23,8 @@ end
 
 def printer(names)
     names.each_with_index do |name, index|
-      name = badge_maker(name)
-     room = assign_rooms(names)
-    puts #{name} #{room[index]}
+      name = batch_badge_creator(names)
+      room = assign_rooms(names)
+    puts #{name[i]} #{room[index]}
     end 
 end 
