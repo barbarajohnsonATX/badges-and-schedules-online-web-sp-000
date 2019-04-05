@@ -21,7 +21,6 @@ def assign_rooms(names)
   rooms 
 end 
 
-def printer
-  
-  puts "#{assign_rooms.first}"
+def printer(names)
+  names.size 
 end 
