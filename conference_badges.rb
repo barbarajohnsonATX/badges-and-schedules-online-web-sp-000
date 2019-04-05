@@ -27,6 +27,7 @@ def printer(names)
   
   i = 0
   names.size do  
+    
     puts #{badge[i]}
     puts #{rooms[i]}
     i += 1 
