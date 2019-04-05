@@ -27,4 +27,5 @@ def printer(names)
     puts "#{batch_badge_creator[i]}"
     puts "#{assign_rooms[i]}"
     i += 1 
+  end 
 end 
