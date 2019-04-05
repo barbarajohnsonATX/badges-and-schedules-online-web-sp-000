@@ -24,7 +24,7 @@ end
 def printer(names)
   i = 0
   names.size do 
-    puts "#{batch_badge_creator[i]}"
+    puts "#{badge_maker[i]}"
     puts "#{assign_rooms[i]}"
     i += 1 
   end 
