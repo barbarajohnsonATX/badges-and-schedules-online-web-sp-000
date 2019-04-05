@@ -28,8 +28,8 @@ def printer(names)
   i = 0
   num_names = names.size 
   
-  num_names.times do  
-    
+  num_names.times do |print|  
+     badge_maker(names)[i]
     puts #{badge[i]}
     puts #{rooms[i]}
     i += 1 
