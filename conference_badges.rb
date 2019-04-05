@@ -29,9 +29,10 @@ def printer(names)
   num_names = names.size 
   
   num_names.times do |print|  
-     badge_maker(names)[i]
-    puts #{badge[i]}
-    puts #{rooms[i]}
+    badge = (badge_maker(names))[i]
+    room = (assign_rooms(names))[i]
+    puts "#{badge}"
+    puts "#{rooms}
     i += 1 
   end 
 end 
