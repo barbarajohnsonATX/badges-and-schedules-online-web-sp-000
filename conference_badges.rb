@@ -32,7 +32,7 @@ def printer(names)
     badge = (badge_maker(names))[i]
     room = (assign_rooms(names))[i]
     puts "#{badge}"
-    puts "#{rooms}
+    puts "#{rooms}"
     i += 1 
   end 
 end 
