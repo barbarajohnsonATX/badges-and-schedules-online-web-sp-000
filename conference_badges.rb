@@ -22,5 +22,8 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-  names.size 
+  i = 0
+  names.size do 
+    puts "#{names[i]"
+    puts
 end 
