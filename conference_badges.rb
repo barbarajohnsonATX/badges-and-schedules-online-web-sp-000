@@ -22,9 +22,8 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-  i = 0 
-   names.each_with_index do 
-     name = badge_maker(names[i])
+    names.each_with_index do |val, index|
+      name = badge_maker(names[i])
      room = assign_rooms(names[i])
     puts #{name} #{room}
     
