@@ -26,6 +26,7 @@ def printer(names)
   rooms = assign_rooms(names)
   
   i = 0
+  num_names = names.size 
   names.size do  
     
     puts #{badge[i]}
