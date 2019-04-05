@@ -22,10 +22,12 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-  badges = batch_badge_creator()
-    names.each_with_index do |name, index|
-      name = batch_badge_creator(names)
-      room = assign_rooms(names)
-    puts #{name[i]} #{room[index]}
+  badges = batch_badge_creator(names)
+  rooms = assign_rooms(names)
+  
+    badges.each_with_index do |name, index|
+      
+    puts "#{name[index]}"
+    puts "#{room[index]}""
     end 
 end 
